@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rye', serif;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  gap: 12px;
+}
+#code{
+  font-size: 40px;
+}
+#random-btn{
+padding: 6px;
+border-radius: 14px;
+font-size: 40px;
+}
+#random-btn:hover{
+  background-color: #FFFF00;
+  cursor: pointer;
+}
+
+
+.hide{
+  display: none;
+}
